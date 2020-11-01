@@ -16,13 +16,15 @@ I couldn't find any boilerplate like this out there that includes all these:
 
 - Support all modern JS language features for component development out of the box
 - Build process to convert source to `umd` and `es` module formats for publishing to npm or github. 
-- Comes with 2 `playground` apps using [nextJS](https://nextjs.org/) [create-react-app](https://github.com/facebookincubator/create-react-app), serving 2 purposes
+- Comes with 2 `playground` apps using [nextJS](https://nextjs.org/) and [create-react-app](https://github.com/facebookincubator/create-react-app), serving 2 purposes
   - Local, hot-reload server for developing your module
   - Easily publishable to *github pages* so users can quickly play with your module (or [surge.sh](http://surge.sh/) or [now.sh](https://zeit.co/now))
 - Use [Rollup](https://rollupjs.org/) for build process and [Babel](https://babeljs.io/) for transpilation
 - Allow the use of `npm` modules within your library, either as dependencies or peer-dependencies
 - Support importing CSS in your components (with css modules enabled by default)
 - Testing with [Jest](https://facebook.github.io/jest/) and [React Testing Library](https://testing-library.com/docs/react-testing-library/intro), using `react-scripts` from `create-react-app`
+- using `Storybook` to share how your components look and how to use them
+- Using `react-testing-library` for the components testing
 
 ## Walkthrough
 
