@@ -1,6 +1,6 @@
 {
-  "name": "@rmanium/react-comps",
-  "version": "1.0.6",
+  "name": "@rmanium/react-sharables",
+  "version": "1.0.1",
   "description": "Boilerplate for publishing modern React modules with Rollup",
   "author": "Arman Khashei",
   "publishConfig": {
@@ -9,7 +9,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:rmanium/react-comps.git"
+    "url": "git@github.com:rmanium/react-sharables.git"
   },
   "main": "dist/index.js",
   "module": "dist/index.es.js",
