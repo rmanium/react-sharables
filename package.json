@@ -1,6 +1,7 @@
 {
   "name": "@rmanium/react-sharables",
   "version": "1.0.1",
+  "homepage": "https://rmanium.github.io/react-sharables",
   "description": "Boilerplate for publishing modern React modules with Rollup",
   "author": "Arman Khashei",
   "publishConfig": {
@@ -19,8 +20,9 @@
     "build": "rollup -c",
     "start": "rollup -c -w",
     "prepublish": "npm run build",
-    "predeploy": "cd playground-cnp && npm install && npm run build",
-    "deploy": "gh-pages -d playground-cnp/.next",
+    "build-playground": "cd playground-cra && npm install && npm run build",
+    "predeploy": "build-storybook --no-dll",
+    "deploy": "gh-pages -d storybook-static",
     "storybook": "start-storybook -p 6006 --no-dll",
     "build-storybook": "build-storybook --no-dll"
   },

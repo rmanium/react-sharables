@@ -3,7 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import { ThemeProvider } from '@material-ui/core/styles';
 import CssBaseline from '@material-ui/core/CssBaseline';
 
-import { Info, Button } from '@rmanium/react-sharables';
+import { Button } from '@rmanium/react-sharables';
 
 const useStyles = makeStyles(() => ({
   root: {
@@ -20,7 +20,7 @@ const App = () => {
     <ThemeProvider>
       <CssBaseline />
       <div className={classes.root}>
-        <Info text="Hi" link="/" />
+        {/* <Info text="Hi" link="/" /> */}
         <Button text="Simple Button" />
       </div>
     </ThemeProvider>
