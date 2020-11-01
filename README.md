@@ -66,6 +66,8 @@ The only difference when publishing your component to **npm** is to make sure yo
 npm publish
 ```
 
+You can create a `.npmrc` file in your local and add `//npm.pkg.github.com/:_authToken=YOUR_TOKEN` to make the publishing process easier for yourself
+
 #### Github Pages
 
 Deploying the `playground-cra` to github pages is simple. We create a production build of our example `create-react-app` that showcases your library and then run `gh-pages` to deploy the resulting bundle. This can be done as follows:
