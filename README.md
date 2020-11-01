@@ -2,6 +2,8 @@
 
 > Boilerplate for publishing React modules with Rollup and 2 examples of its usage via create-react-app and nextJS.
 
+Here is the [github page](https://rmanium.github.io/react-sharables) with storybook where you can demo your available components.
+
 ## Intro
 
 *Note*: This was originally created on Oct 30 2020 (I hope the year you look at this is better than 2020!)
@@ -63,6 +65,8 @@ The only difference when publishing your component to **npm** is to make sure yo
 # note this will build `commonjs` and `es`versions of your module to dist/
 npm publish
 ```
+
+You can create a `.npmrc` file in your local and add `//npm.pkg.github.com/:_authToken=YOUR_TOKEN` to make the publishing process easier for yourself
 
 #### Github Pages
 
