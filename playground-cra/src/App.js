@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import { ThemeProvider } from '@material-ui/core/styles';
 import CssBaseline from '@material-ui/core/CssBaseline';
@@ -20,7 +20,6 @@ const App = () => {
     <ThemeProvider>
       <CssBaseline />
       <div className={classes.root}>
-        {/* <Info text="Hi" link="/" /> */}
         <Button text="Simple Button" />
       </div>
     </ThemeProvider>

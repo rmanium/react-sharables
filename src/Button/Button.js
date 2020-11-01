@@ -9,11 +9,19 @@ const useStyles = makeStyles(
   }),
 );
 
-const TestButton = (props) => {
+const TestButton = ({ text = '', onClick }) => {
   const classes = useStyles();
-  const { text = '' } = props;
+  const handleOnClick = () => {
+    if (onClick) {
+      onClick;
+    }
+  };
   return (
-    <Button className={classes.root} variant="contained">
+    <Button
+      onClick={handleOnClick}
+      className={classes.root}
+      variant="contained"
+    >
       {text}
     </Button>
   );
