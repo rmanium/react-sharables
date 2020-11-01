@@ -2,6 +2,8 @@
 
 > Boilerplate for publishing React modules with Rollup and 2 examples of its usage via create-react-app and nextJS.
 
+Here is the [github page](https://rmanium.github.io/react-sharables) with storybook where you can demo your available components.
+
 ## Intro
 
 *Note*: This was originally created on Oct 30 2020 (I hope the year you look at this is better than 2020!)
