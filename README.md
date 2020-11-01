@@ -6,7 +6,7 @@ Here is the [github page](https://rmanium.github.io/react-sharables) with storyb
 
 ## Intro
 
-*Note*: This was originally created on Oct 30 2020 (I hope the year you look at this is better than 2020!)
+_Note_: This was originally created on Oct 30 2020 (I hope the year you look at this is better than 2020!)
 
 Inspired By [blog post](https://hackernoon.com/publishing-baller-react-modules-2b039d84bce7).
 
@@ -17,16 +17,25 @@ Inspired By [blog post](https://hackernoon.com/publishing-baller-react-modules-2
 I couldn't find any boilerplate like this out there that includes all these:
 
 - Support all modern JS language features for component development out of the box
-- Build process to convert source to `umd` and `es` module formats for publishing to npm or github. 
+- Build process to convert source to `umd` and `es` module formats for publishing to npm or github.
 - Comes with 2 `playground` apps using [nextJS](https://nextjs.org/) and [create-react-app](https://github.com/facebookincubator/create-react-app), serving 2 purposes
   - Local, hot-reload server for developing your module
-  - Easily publishable to *github pages* so users can quickly play with your module (or [surge.sh](http://surge.sh/) or [now.sh](https://zeit.co/now))
+  - Easily publishable to _github pages_ so users can quickly play with your module (or [surge.sh](http://surge.sh/) or [now.sh](https://zeit.co/now))
 - Use [Rollup](https://rollupjs.org/) for build process and [Babel](https://babeljs.io/) for transpilation
 - Allow the use of `npm` modules within your library, either as dependencies or peer-dependencies
 - Support importing CSS in your components (with css modules enabled by default)
 - Testing with [Jest](https://facebook.github.io/jest/) and [React Testing Library](https://testing-library.com/docs/react-testing-library/intro), using `react-scripts` from `create-react-app`
 - using `Storybook` to share how your components look and how to use them
 - Using `react-testing-library` for the components testing
+- Everything is in the latest version as of Oct 30 2020:
+  - React 17.x
+  - NextJS 10.x
+  - Create React App 4.x
+  - Babel 7.x
+  - Storybook 6.x
+  - React Testing Library 11.x
+  - Rollup 2.x
+  - Material UI 4.x
 
 ## Walkthrough
 
@@ -77,7 +86,6 @@ npm run deploy
 ```
 
 Note that it's important for your `playground-cra/package.json` to have the correct `homepage` property set, as `create-react-app` uses this value as a prefix for resolving static asset URLs.
-
 
 ## License
 
