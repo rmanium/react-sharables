@@ -13,7 +13,7 @@ const TestButton = ({ text = '', onClick }) => {
   const classes = useStyles();
   const handleOnClick = () => {
     if (onClick) {
-      onClick;
+      onClick();
     }
   };
   return (
@@ -29,6 +29,7 @@ const TestButton = ({ text = '', onClick }) => {
 
 TestButton.propTypes = {
   text: PropTypes.string,
+  onClick: PropTypes.func,
 };
 
 export default TestButton;

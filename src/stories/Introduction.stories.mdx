@@ -1,5 +1,6 @@
 import { Meta } from '@storybook/addon-docs/blocks';
 import Code from './assets/code-brackets.svg';
+import pkg from '../../package.json';
 
 <Meta title="About" />
 
@@ -82,33 +83,27 @@ import Code from './assets/code-brackets.svg';
   
 `}</style>
 
-# Welcome to Storybook
+# Welcome to Sharable Components
 
-Storybook helps you build UI components in isolation from your app's business logic, data, and context.
-That makes it easy to develop hard-to-reach states. Save these UI states as **stories** to revisit during development, testing, or QA.
+<h2>Version {pkg.version}</h2>
+This is a starter project for creating sharable components using React.
+You can clone the repo and start creating sharable components. For more
+information on how to start the project check the repo's [readme](https://github.com/rmanium/react-sharables).
 
 Browse example stories now by navigating to them in the sidebar.
-View their code in the `src/storybook-examples` directory to learn how they work.
-We recommend building UIs with a [**component-driven**](https://componentdriven.org) process starting with atomic components and ending with pages.
+I recommend building UIs with a [**component-driven**](https://componentdriven.org) process starting with [atomic](https://bradfrost.com/blog/post/atomic-web-design/) components and ending with pages.
 
-<div className="subheading">Configure</div>
+Please check [here](https://github.com/rmanium/react-sharables) for more
+detailed information.
 
 <div className="link-list">
   <div>
-    <p>To start the project</p>
+    <p>To start the project locally:</p>
+    <code>
+      git clone https://github.com/rmanium/react-sharables.git
+    </code>
     <code>npm install </code>
     <br />
     <code>npm run storybook</code>
   </div>
-  {/* <a
-    className="link-item"
-    href="https://storybook.js.org/docs/react/api/presets"
-    target="_blank"
-  >
-    <img src={Plugin} alt="plugin" />
-    <span>
-      <strong>Presets for popular tools</strong>
-      Easy setup for TypeScript, SCSS and more.
-    </span>
-  </a> */}
 </div>
